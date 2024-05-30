@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tadesf/convert-iso-codes.git"
+    "url": "https://github.com/TadeSF/convert-iso-codes"
   },
   "keywords": [
     "country-codes",
