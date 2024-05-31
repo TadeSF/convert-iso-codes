@@ -82,7 +82,10 @@ const alpha2 = CIOC.toAlpha2('AUS'); // Returns 'AU'
 // ...
 ```
 
-If you don't want any of the converter functions to throw an error when an invalid country code is provided, you can pass `false` as the second argument (`ignoreError`) to the converter functions.
+## Error Handling
+Usually the converter functions will throw an error if an invalid country code is provided.
+
+If you don't want this behaviour, you can pass `false` as the second argument (`ignoreError`) to the converter functions.
 This will make the functions return the original value if the country code is invalid.
 
 ```javascript
