@@ -1,7 +1,7 @@
 {
   "name": "convert-iso-codes",
   "version": "1.0.0",
-  "description": "A set of typesafe  utility classes that allows converting from and to ISO 3166-1 Alpha-2, ISO 3166-1 Alpha-3, ISO 3166-1 Numeric and IOC-Codes",
+  "description": "A set of typesafe static utility classes that allows converting from and to ISO 3166-1 Alpha-2, ISO 3166-1 Alpha-3, ISO 3166-1 Numeric, TLD and IOC-Codes",
   "main": "index.js",
   "scripts": {
     "ci": "npm run lint && npm run typecheck && npm run test",

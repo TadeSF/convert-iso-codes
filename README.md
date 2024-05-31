@@ -1,12 +1,12 @@
-# Country Code Converter
+# Convert ISO 3166-1 Codes
 
-A powerful Node.js module for converting between different country code formats using the ISO 3166-1 standard, leveraging the `world-countries` package.
+A Node.js module for converting between different country code formats using the ISO 3166-1 standard, leveraging the `world-countries` package.
 
 ## Features
 
-- Convert between ISO 3166-1 alpha-2, alpha-3, numeric, TLD, and CIOC formats.
+- Convert between ISO 3166-1 alpha-2, alpha-3, numeric, TopLevelDomain, and CIOC formats.
 - Easily integrate into any Node.js project.
-- Uses `world-countries` for accurate and up-to-date country data.
+- Uses npm package `world-countries` for accurate and up-to-date country data.
 
 ## Installation
 
@@ -80,6 +80,13 @@ import { CIOC } from 'convert-iso-codes';
 const alpha2 = CIOC.toAlpha2('AUS'); // Returns 'AU'
 
 // ...
+```
+
+If you don't want any of the converter functions to throw an error when an invalid country code is provided, you can pass `false` as the second argument (`ignoreError`) to the converter functions.
+This will make the functions return the original value if the country code is invalid.
+
+```javascript
+const alpha2 = Alpha3.toAlpha2('XYZ', false); // Returns 'XYZ'
 ```
 
 ## Contributing
