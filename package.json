@@ -1,6 +1,6 @@
 {
   "name": "convert-iso-codes",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A set of typesafe static utility classes that allows converting from and to ISO 3166-1 Alpha-2, ISO 3166-1 Alpha-3, ISO 3166-1 Numeric, TLD and IOC-Codes",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TadeSF/convert-iso-codes"
+    "url": "git+https://github.com/TadeSF/convert-iso-codes.git"
   },
   "keywords": [
     "country-codes",
