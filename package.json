@@ -1,6 +1,6 @@
 {
   "name": "convert-iso-codes",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A set of typesafe static utility classes that allows converting from and to ISO 3166-1 Alpha-2, ISO 3166-1 Alpha-3, ISO 3166-1 Numeric, TLD and IOC-Codes",
   "main": "index.js",
   "types": "lib/index.d.ts",
@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/tadesf/convert-iso-codes#readme",
   "dependencies": {
-    "convert-iso-codes": "^1.0.4",
     "eslint": "^9.3.0",
     "world-countries": "^5.0.0"
   },
