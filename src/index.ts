@@ -241,11 +241,9 @@ function convertByWorldCountryLookup(
 	value: string,
 	ignoreError = false,
 ): string {
-	// @ts-ignore
-	const country = worldCountries.find((country) => country[fromKey] === value);
+	const country = worldCountries.find((country) => (country as any)[fromKey].toLowerCase() === value.toLowerCase());
 	if (country) {
-		// @ts-ignore
-		return country[toKey] as string;
+		return (country as any)[toKey] as string;
 	}
 	if (ignoreError) {
 		return value;
